@@ -42454,6 +42454,7 @@ a.u-link.u-text-hover-grey-90:hover {
         --theme-sheet-width-md: 720px;
         --theme-sheet-width-sm: 540px;
         --theme-sheet-width-xs: 340px;
+        --theme-sheet-width-xxl: 1320px;
         
         
         
@@ -42943,11 +42944,6 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 92px;
 }
 
-.u-header .u-image-1 {
-  width: 67px;
-  height: 73px;
-  margin: 9px auto 8px;
-}
 
 
 
@@ -42959,6 +42955,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-sheet-1 {
   min-height: 79px;
 }
+
 
 
 
