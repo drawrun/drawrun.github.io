@@ -10,38 +10,16 @@
 .u-section-1 .u-image-1 {
   width: 664px;
   height: 202px;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
-  margin: 100px auto 0;
+  margin: 101px auto 0;
 }
 
 .u-section-1 .u-btn-1 {
   text-transform: uppercase;
   letter-spacing: 2px;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
   font-weight: 700;
   background-image: none;
   --radius: 11px;
-  margin: 117px auto 0;
-}
-
-.u-section-1 .u-text-1 {
-  font-size: 0.875rem;
-  letter-spacing: 1px;
-  line-height: 1.8;
-  text-transform: none;
-  --animation-custom_in-translate_x: 300px;
-  --animation-custom_in-translate_y: 0px;
-  margin: 122px auto 11px;
-}
-
-.u-section-1 .u-btn-2 {
-  border-style: solid;
-  padding: 0;
+  margin: 116px auto 60px;
 }
 
 @media (max-width: 1199px) {
@@ -49,7 +27,17 @@
     min-height: 514px;
   }
 
+  .u-section-1 .u-image-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
+  }
+
   .u-section-1 .u-btn-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
     padding: 15px 44px 16px;
   }
 }
@@ -98,11 +86,6 @@
 }
 
 .u-section-2 .u-text-1 {
-  --animation-custom_in-translate_x: -300px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
   font-weight: 700;
   margin: 60px auto 0;
 }
@@ -115,6 +98,16 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   margin: 20px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-text-1 {
+    --animation-custom_in-translate_x: -300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
 }
 
 @media (max-width: 767px) {
